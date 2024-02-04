@@ -1,32 +1,4 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name : CarVilla  HTML Template
-* Version       : 1.0
-==================================== */
 
-/*==================================
-font-family: 'Poppins', sans-serif;
-font-family: 'Rufina', serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Top-area
-3.  Welcome-hero
-4.  Model-search
-5.  Service
-6.  New-cars
-7.  Featured-cars
-8.  Client-say
-9.  Brand
-10. Blog
-11. Contact
-==========================================*/
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -42,7 +14,7 @@ font-family: 'Rufina', serif;
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
-	color:#818998;
+	color:#ffffff;
     text-transform:initial;
     max-width:1920px;
     margin:0 auto;
@@ -52,7 +24,7 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #444a57;
+	color: #ffffff;
 	font-size:20px;
 	padding:0;
     font-weight: 500;
@@ -60,14 +32,14 @@ a,a:hover,a:active,a:focus {
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#444a57;
+	color:#ffffff;
     font-size: 20px;
     font-weight: 500;
     text-transform: capitalize;
 }
 p {
 	margin: 0;
-	color:#818998;
+	color:#ffffff;
 	font-size:16px;
     line-height: 1.8;
     text-transform: initial;
@@ -327,27 +299,32 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 --------------------------------------*/
 .service { padding: 260px 0 87px;}
 
-.single-service-item{
+.single-service-item {
     text-align: center;
-    padding:55px 30px 60px;
+    padding: 55px 30px 60px;
     border-radius: 3px;
     margin-bottom: 30px;
-    border: 1px solid #dadfe9;
-    -webkit-transition: .3s linear; 
-    -moz-transition:.3s linear; 
-    -ms-transition:.3s linear; 
-    -o-transition:.3s linear;
+    border: 1px solid #ffffff;
+    -webkit-transition: .3s linear;
+    -moz-transition: .3s linear;
+    -ms-transition: .3s linear;
+    -o-transition: .3s linear;
     transition: .3s linear;
 }
 
 .single-service-icon {
     display: inline-block;
-    color: #50616c;
+    color: #ffffff;
+}  
+    
+.single-service-item h2 {
+        margin-bottom: 10px;
 }
-.single-service-item h2 a {
-    font-size:20px;
-    margin: 35px 0 20px;
-}
+    
+    .single-service-item h2 a,
+    .single-service-item p {
+        color: #ffffff;
+    }
 .single-service-item h2 a span {text-transform:  lowercase;}
 .single-service-item p {padding-bottom: 35px;text-transform: initial;position: relative;}
 .single-service-item p:before {
@@ -399,10 +376,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     height: 8px;
     margin: 0px 4px;
     background: transparent;
-    border: 1px solid #6a7781;
+    border: 1px solid #ffffff;
     border-radius: 50%;
 }
-.new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #6a7781;}
+.new-cars .owl-theme .owl-dots .owl-dot.active span,.new-cars .owl-theme .owl-dots .owl-dot:hover span {background: #ffffff;}
 .new-cars .owl-theme .owl-nav.disabled+.owl-dots {margin-top: 62px;}
 /*.owl-dots */
 
@@ -429,7 +406,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .featured-model-info{padding:12px 7px;}
 .featured-model-info p {
     font-size: 12px;
-    color: #8c92a0;
+    color: #ffffff;
     text-transform: capitalize;
 }
 .featured-mi-span{display: inline-block;margin:0 10px;}
