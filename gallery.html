@@ -117,6 +117,34 @@
 
 
 		<!--service start -->
+
+              <style>
+            .image-grid {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+            }
+            
+            .image-grid img {
+              margin: 5px;
+            }
+            
+            @media (min-width: 768px) {
+              .image-grid img {
+                width: 300px;
+                height: 225px;
+              }
+            }
+            
+            @media (max-width: 767px) {
+              .image-grid img {
+                width: 100px;
+                height: 100px;
+              }
+            }
+            </style>
+
+
 		
         <div class="image-grid" style="background-color: #2a2d54;">
             <img src="assets/images/gallery/VW GTD.jpeg" alt="img" onclick="openOverlay('assets/images/gallery/VW GTD.jpeg')"/>
